@@ -87,8 +87,8 @@ namespace WindowsFormsApp1
                     for (int j = 1; j < 4; j++)
                     {
                         sum += Convert.ToDouble(dataGridView1.Rows[i].Cells[j].Value);
-                        sumAll += (sum / 3);
                     }
+                    sumAll += (sum / 3);
                     sum = 0;
                 }
                 label1.Text = label1.Text + " " + (sumAll / 5).ToString();
